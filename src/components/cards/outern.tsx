@@ -47,7 +47,7 @@ export function OuternCard() {
           </div>
           <div className="flex flex-row items-start justify-between gap-1 text-white transition-colors w-full">
             <span className="text-sm font-light text-neutral-400">
-              Senior Software Engineer
+              Software Engineer
             </span>
             <span className="hidden md:inline text-sm font-light text-neutral-400">
               Sep 2019 – Jul 2021
