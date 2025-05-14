@@ -75,7 +75,7 @@ export function LocationCard() {
          className="card-border relative col-span-4 col-start-1 row-span-2 row-start-1 flex flex-col gap-6 overflow-hidden rounded-xl p-4 bg-neutral-900 md:col-span-2 md:col-start-1 md:row-span-4 md:row-start-1 md:h-40"
       >
          <div className="z-10 flex items-center justify-between gap-2">
-            <h2 className="text-xs sm:text-sm font-light">Columbus, OH</h2>
+            <h2 className="text-xs sm:text-sm font-medium sm:font-light">Columbus, OH</h2>
             <Image
               src={osu}
               alt="OSU logo"
