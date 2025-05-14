@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+:root {
+   --background: 0 0% 4%;
+   --foreground: 0 0% 98%;
+
+   --card: 0 0% 9%;
+   --card-foreground: 0 0% 98%;
+
+   --popover: 0 0% 3.9%;
+   --popover-foreground: 0 0% 98%;
+
+   --primary: 0 0% 98%;
+   --primary-foreground: 0 0% 9%;
+
+   --secondary: 0 0% 14.9%;
+   --secondary-foreground: 0 0% 98%;
+
+   --muted: 0 0% 14.9%;
+   --muted-foreground: 0 0% 63.9%;
+
+   --accent: 0 0% 14.9%;
+   --accent-foreground: 0 0% 98%;
+
+   --destructive: 0 62.8% 30.6%;
+   --destructive-foreground: 0 0% 98%;
+
+   --border: 0 0% 14.9%;
+   --input: 0 0% 14.9%;
+   --ring: 0 0% 83.1%;
+
+   --brand-green: hsl(134, 64%, 42%);
+ }
+
+ 
+/* Apply global styles directly */
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-sora), system-ui, sans-serif;
+}
+
+/* Card border utility */
+.card-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: 0.75rem; /* equivalent to rounded-xl */
+  padding: 2px;
+  background-color: hsl(134, 64%, 42%);
+  /* background-image: linear-gradient(to bottom, rgba(229, 229, 229, 0.5), transparent); */
+  mix-blend-mode: soft-light;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.card-border-multicolor::before {
+   content: '';
+   position: absolute;
+   inset: 0;
+   pointer-events: none;
+   border-radius: 0.75rem; /* rounded-xl */
+   padding: 2px; /* slightly thicker to show gradient better */
+   background-image: linear-gradient(
+     to right,
+     #e82e19 0%,
+     #e82e19 25%,
+     #3173f0 25%,
+     #3173f0 50%,
+     #269a41 50%,
+     #269a41 75%,
+     #f6ac00 75%,
+     #f6ac00 100%
+   );
+   -webkit-mask:
+     linear-gradient(#fff 0 0) content-box,
+     linear-gradient(#fff 0 0);
+   -webkit-mask-composite: xor;
+   mask-composite: exclude;
+ }
+
+/* Prose styling */
+.prose .anchor {
+  visibility: hidden;
+  position: absolute;
+  text-decoration: none;
+  margin-left: -1em;
+  padding-right: 0.5em;
+  width: 80%;
+  max-width: 700px;
+  cursor: pointer;
+}
+
+.anchor:hover {
+  visibility: visible;
+}
+
+.prose a {
+  text-decoration-color: hsl(0 0% 64%);
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.dark .prose a {
+  text-decoration-color: hsl(0 0% 38%);
+}
+
+.prose .anchor::after {
+  content: "#";
+  color: hsl(0 0% 70%);
+}
+
+.dark .prose .anchor::after {
+  color: hsl(0 0% 30%);
+}
+
+.prose *:hover > .anchor {
+  visibility: visible;
+}
