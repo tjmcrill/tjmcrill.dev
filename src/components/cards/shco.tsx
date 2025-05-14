@@ -47,7 +47,7 @@ export function ShcoCard() {
           </div>
           <div className="flex flex-row items-start justify-between gap-1 text-white transition-colors w-full">
             <span className="text-sm font-light text-neutral-400">
-              Co-Founder/Engineer
+              Co-Founder
             </span>
             <span className="hidden md:inline text-sm font-light text-neutral-400">
               Oct 2022 – Present
