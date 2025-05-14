@@ -14,7 +14,7 @@ const countries = [
   { code: "ma", name: "Morocco" },
   { code: "de", name: "Germany" },
   { code: "jp", name: "Japan" },
-  { code: "hk", name: "Hong Kong" },
+  { code: "hk", name: "HK" },
   { code: "ph", name: "Philippines" },
   { code: "ae", name: "UAE" },
   { code: "af", name: "Afghanistan" },
