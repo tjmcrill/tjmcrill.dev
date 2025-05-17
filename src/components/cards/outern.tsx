@@ -84,9 +84,9 @@ export function OuternCard() {
                 <X size={20} />
               </button>
 
-              <h2 className="text-xl font-semibold mb-1">Shco</h2>
+              <h2 className="text-xl font-semibold mb-1">Outern</h2>
               <p className="text-sm text-neutral-400 mb-4">
-              Co-Founder/Engineer • October 2022 – Present
+              Senior Software Engineer • Sep 2019 – Jul 2021
               </p>
               <div className="space-y-2 text-sm text-neutral-300 leading-relaxed">
                 <p>
