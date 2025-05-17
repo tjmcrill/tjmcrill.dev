@@ -24,7 +24,6 @@ export default function TravelsPage() {
   return (
     <div className="flex flex-col items-center w-full px-4 space-y-12">
       <Globe />
-
       <div className="max-w-4xl w-full text-center">
         <h2 className="text-xl font-medium mb-6">Places I've Been</h2>
         <div className="grid grid-cols-4 md:grid-cols-5 gap-4 place-items-center">

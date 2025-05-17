@@ -52,8 +52,16 @@ export function Globe() {
         { location: [25.761681, -80.191788], size: 0.05, }, //miami
         { location: [34.052235, -118.243683], size: 0.05, }, //la
         { location: [41.878113, -87.629799], size: 0.05, }, //chicago
+        { location: [36.169941, -115.139832], size: 0.05, }, //vegas
+        { location: [29.951065, -90.071533], size: 0.05, }, //nola
+        { location: [40.712776, -74.005974], size: 0.05, }, //ny
+        { location: [34.889359, -82.975616], size: 0.05, }, //cliffs
         { location: [32.776665, -96.796989], size: 0.05, }, //dallas
-        { location: [31.791702, -7.092620], size: 0.05, }, //morocco
+        { location: [31.629473, -7.981084], size: 0.05, }, //marrakesh
+        { location: [31.629473, -7.981084], size: 0.05, }, //marrakesh
+        { location: [31.099461, -4.018170], size: 0.05, }, //merzouga
+        { location: [35.7703901, -5.803610], size: 0.05, }, //tangier
+        { location: [34.059769, -4.965310], size: 0.05, }, //fez
         { location: [53.412910, -8.243890], size: 0.05, }, //ireland
         { location: [55.378052, -3.435973], size: 0.05, }, //UK
         { location: [64.963051, -19.020836], size: 0.05, }, //iceland
