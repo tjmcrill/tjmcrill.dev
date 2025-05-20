@@ -3,6 +3,7 @@ import { Header } from "@/components/layouts/header"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata } from "next"
 import { Sora } from "next/font/google"
 import "./globals.css"
@@ -53,6 +54,7 @@ export default function RootLayout({
             </ThemeProvider>
             <div className="pointer-events-none fixed inset-0 z-[99] h-full w-full overflow-hidden bg-[url(/noise.png)] opacity-[0.17]" />
             <SpeedInsights />
+            <Analytics/>
          </body>
       </html>
    )
