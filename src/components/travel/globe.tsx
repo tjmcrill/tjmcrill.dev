@@ -78,6 +78,8 @@ export function Globe() {
         { location: [36.140751, -5.353585], size: 0.05, }, //gibraltar
         { location: [25.204849, 55.270782], size: 0.05, }, //dubai
         { location: [19.896767, -155.582779], size: 0.05, }, //hawaii
+        { location: [9.9312, 76.2673], size: 0.05, }, //kochi
+        { location: [17.385, 78.4867], size: 0.05, }, //hyderabad
       ],
       scale: 1.25,
       onRender: (state) => {

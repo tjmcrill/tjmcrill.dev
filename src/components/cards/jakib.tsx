@@ -4,10 +4,10 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
 import { Info, X } from "lucide-react"
-import jpmc from "@/lib/jpmc.png"
+import jakib from "@/lib/jakib.png"
 import { defaultVariantsNoDelay } from "@/components/motion.variants"
 
-export function ChaseCard() {
+export function JakibCard() {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   // Close modal on ESC key
@@ -30,8 +30,8 @@ export function ChaseCard() {
       >
         <div className="flex items-center">
           <Image
-            src={jpmc}
-            alt="JPMC logo"
+            src={jakib}
+            alt="Jakib logo"
             width={40}
             height={40}
             className="h-10 w-10 mix-blend-screen will-change-transform"
@@ -41,20 +41,20 @@ export function ChaseCard() {
         <div className="flex flex-col items-start justify-center flex-1">
           <div className="flex flex-row items-center justify-between w-full">
             <div className="text-sm font-medium text-neutral-200">
-              JPMorgan Chase & Co
+              Jakib AI LLC.
             </div>
             <Info size={16} />
           </div>
           <div className="flex flex-row items-start justify-between gap-1 text-white transition-colors w-full">
             <span className="text-sm font-light text-neutral-400">
-              Software Engineer II
+              Software Engineer
             </span>
             <span className="hidden md:inline text-sm font-light text-neutral-400">
-              Jul 2021 – Jul 2025
+              Jul 2025 – Present
             </span>
             {/* Mobile */}
             <span className="inline md:hidden text-sm font-light text-neutral-400">
-              2021 – 2025
+              2025 – Present
             </span>
           </div>
         </div>
@@ -85,14 +85,15 @@ export function ChaseCard() {
                 <X size={20} />
               </button>
 
-              <h2 className="text-xl font-semibold mb-1">JPMorgan Chase & Co</h2>
+              <h2 className="text-xl font-semibold mb-1">Jakib AI LLC.</h2>
               <p className="text-sm text-neutral-400 mb-4">
-                Software Engineer II • July 2021 – Present
+                Software Engineer • July 2025 – Present
               </p>
               <div className="space-y-2 text-sm text-neutral-300 leading-relaxed">
                 <p>
-                I helped redesign the main account dashboard for millions of users, leading the move to a React-based architecture. I modernized account info systems, upgraded legacy UI to meet new design and accessibility standards, and delivered tested, production-ready features. I also contributed to nonprofit projects through the "Force for Good" initiative.
-                </p>
+                At Jakib AI, I architect custom AI solutions that drive measurable growth for companies across industries and scales.
+                I specialize in building production-grade AI products tailored to each client's unique challenges—from intelligent recruiting pipelines that surface top talent faster, to RAG-powered chat interfaces that transform how teams access and leverage their knowledge bases.
+                My stack: Next.js, React, TypeScript, Python, FastAPI, Modal, and Vercel—chosen for rapid iteration, bulletproof reliability, and seamless scalability from MVP to enterprise.                </p>
               </div>
             </motion.div>
           </motion.div>
