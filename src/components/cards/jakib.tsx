@@ -34,7 +34,7 @@ export function JakibCard() {
             alt="Jakib logo"
             width={40}
             height={40}
-            className="h-10 w-10 mix-blend-screen will-change-transform"
+            className="h-10 w-10 mix-blend-screen will-change-transform rounded-xl"
             unoptimized
           />
         </div>
