@@ -19,6 +19,8 @@ const countries = [
   { code: "ae", name: "UAE" },
   { code: "af", name: "Afghanistan" },
   { code: "in", name: "India" },
+  { code: "pl", name: "Poland" },
+  { code: "cz", name: "Czech Republic" },
 ]
 
 export default function TravelsPage() {
