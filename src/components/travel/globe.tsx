@@ -80,10 +80,10 @@ export function Globe() {
         { location: [19.896767, -155.582779], size: 0.05, }, //hawaii
         { location: [9.9312, 76.2673], size: 0.05, }, //kochi
         { location: [17.385, 78.4867], size: 0.05, }, //hyderabad
-        { location: [50.0619474,19.9368564], size: 0.05, }, //krakow,
-        { location: [51.1089776,17.0326689], size: 0.05, }, //wroclaw,
-        { location: [50.0874654,14.4212535], size: 0.05, }, //prague,
-        { location: [49.2969114,19.9504753], size: 0.05, }, //zakopane,
+        { location: [50.0619474, 19.9368564], size: 0.05, }, //krakow,
+        { location: [51.1089776, 17.0326689], size: 0.05, }, //wroclaw,
+        { location: [50.0874654, 14.4212535], size: 0.05, }, //prague,
+        { location: [49.2969114, 19.9504753], size: 0.05, }, //zakopane,
       ],
       scale: 1.25,
       onRender: (state) => {
